@@ -27,7 +27,7 @@ This will brand the info.plist file of your build with following values:
 **Branding Values**
 
 | Key     | Type      | Description   |
-|-|:-:| :-|
+|------|:-------:| :------|
 |BuildBrand.BuildTimestamp| Number| Unix timestamp of the build|
 |BuildBrand.GitBranch| Number | Current Git branch|
 |BuildBrand.GitCommit| String| Latest commit hash|
@@ -36,6 +36,6 @@ This will brand the info.plist file of your build with following values:
 If you added the Tag prefix:
 
 | Key     | Type      | Description   |
-|-|:-:| :-|
+|-----|:------:| :-----|
 |BuildBrand.GitLogSinceTag|String|The latest tag from where the log starts|
 |BuildBrand.GitLog|Array|Git log|
